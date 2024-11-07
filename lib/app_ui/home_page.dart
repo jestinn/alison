@@ -43,10 +43,7 @@ class _HomePageState extends State<HomePage> {
                 )),
             IconButton(
                 onPressed: () {},
-                icon: Icon(
-                  Icons.shopping_bag_outlined,
-                  size: 25,
-                )),
+                icon: Icon(Icons.shopping_bag_outlined, size: 25)),
           ],
         ),
         body: SingleChildScrollView(
