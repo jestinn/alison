@@ -145,7 +145,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
       case 0:
         return HomePage();
       case 1:
-        return HomePage();
+        return SizedBox();
       case 2:
         return HomePage();
 
