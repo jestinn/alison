@@ -1,4 +1,3 @@
-import 'package:alison_test/app_ui/widget_styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import '../app_colors.dart';
@@ -32,9 +31,9 @@ class _BottomNavBarState extends State<BottomNavBar> {
       ),
       bottomNavigationBar: Container(
         decoration: BoxDecoration(
-            borderRadius: const BorderRadius.only(
-                topRight: Radius.circular(14), topLeft: Radius.circular(14)),
-            ),
+          borderRadius: const BorderRadius.only(
+              topRight: Radius.circular(14), topLeft: Radius.circular(14)),
+        ),
         child: ClipRRect(
           borderRadius: const BorderRadius.only(
             topLeft: Radius.circular(14.0),
